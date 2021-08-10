@@ -1,0 +1,86 @@
+body {
+  background-image: linear-gradient(to right, #6e85b2, #5c527f);
+  background-size: contain;
+}
+.main-body {
+  margin: 0px, auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+/* Common styles */
+.aqua-color-text {
+  color: aliceblue;
+}
+.player-block {
+  padding: 5rem;
+}
+.centered {
+  text-align: center;
+}
+.player-heading {
+  position: relative;
+  bottom: 1.5rem;
+}
+.score-box {
+  background-color: #171010;
+  position: relative;
+  top: 2rem;
+  padding: 1.5rem;
+  border-radius: 5%;
+}
+
+/* Individual Settings */
+.player1 {
+  background-color: #3e2c41;
+}
+.player2 {
+  background-color: #261c2c;
+}
+
+/* Buttons */
+.btns {
+  z-index: 5;
+  margin: 0px, auto;
+  position: absolute;
+}
+.new-game {
+  top: 16rem;
+  opacity: 0.5;
+  border: none;
+  border-radius: 50rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.dice {
+  height: 3.5rem;
+  z-index: 5;
+  margin: 0px, auto;
+  position: absolute;
+}
+.hold-roll-btns {
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  top: 28rem;
+}
+.roll-dice {
+  border: none;
+  border-radius: 50rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.hold {
+  border: none;
+  margin-top: 0.3rem;
+  border-radius: 50rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
